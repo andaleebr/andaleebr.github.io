@@ -1,0 +1,15 @@
+---
+title: "Andaleeb Rahman"
+---
+
+::: {layout-ncol="2"}
+## About me:
+
+I am an applied economist with a rich experience of conceptualizing, designing, and executing policy-relevant impact evaluations using causal inference methods. I am also passionate about communicating research to a wider audience.
+
+![](photo.jpg){fig-align="left" width="200" height="200"}
+:::
+
+## Contact:
+
+Email : ar687\@cornell.edu (andaleeb2312\@gmail.com) \| [LinkedIn](https://www.google.com/url?q=http%3A%2F%2Fwww.linkedin.com%2Fin%2Fandaleeb-rahman2312&sa=D)
