@@ -1,0 +1,37 @@
+---
+title: "Selected Articles"
+---
+
+[Status Inequality and Public Goods ](https://www.sciencedirect.com/science/article/pii/S0305750X23003443?via%3Dihub)[ ](https://www.sciencedirect.com/science/article/pii/S0305750X21000097)(with Bharathi, N & Malghan, D, & Mishra, S.). World Development (forthcoming). \[[PDF](https://www.dropbox.com/scl/fi/n2nzb3imat80syi420uhj/statusHierarchy_WD.pdf?rlkey=vmkgbsxdfkydxga3vrut45u8n&dl=0)\]
+
+[Ethnic Diversity and Economic Development with Spatial Segregation](https://www.sciencedirect.com/science/article/abs/pii/S0165176522004256?dgcid=rss_sd_all) (with Bharathi, N & Malghan, D). Economics Letters. 2023. 222, 110951, \[[Preprint](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4286132)\]
+
+[Residential Segregation and Public Services in Urban India](https://journals.sagepub.com/doi/10.1177/00420980211072855) (with Bharathi, N, Malghan, D, & Mishra, S). Urban Studies. 59(14), 2912–2932. \[[PDF](https://www.dropbox.com/s/qce4ux4zo3jlhca/USJ2022.pdf?dl=0)\]
+
+[India’s Rural Transformation and Rising Obesity Burden](https://www.sciencedirect.com/science/article/pii/S0305750X20303855?via%3Dihub) (with Aiyar, A  & Pingali, P). World Development. 2021, 138, 105258 \[[PDF](https://www.dropbox.com/home/personal/Personal%20Details/Publications?preview=ruralObesityUrbanShadow.pdf)\]
+
+[Fractal Urbanism: City Size and Residential Segregation in India ](https://www.sciencedirect.com/science/article/pii/S0305750X21000097)(with Bharathi, N & Malghan, D, & Mishra, S) \[[Dyson WP \# 2020-06](https://dyson.cornell.edu/wp-content/uploads/sites/5/2020/07/WP_2020_06-VD.pdf)\]  World Development. 2021. \[PDF\]
+
+[A Permanent Cordon Sanitaire: Intra-Village Spatial Segregation and Social Distance in India](https://www.tandfonline.com/doi/full/10.1080/09584935.2020.1859991) (with Bharathi, N & Malghan, D). Contemporary South Asia. 2020.
+
+[Diversity Deficit and Scale-Flip](https://www.tandfonline.com/doi/full/10.1080/00220388.2020.1802011)(with Bharathi, N & Malghan, D, & Mishra, S). Journal of Development Studies. 2020. \[[PDF](https://poseidon01.ssrn.com/delivery.php?ID=065004099094074097080028027113113077008034068021065036067103102107017079125003113118017016059047050120097082115005098073066072123047029051078016093098072124028071073060054040125014001082125025074102100026109069101026100098016004079064113085102091072088&EXT=pdf)\]
+
+[Does non-farm income affect food security? Evidence from India](https://www.tandfonline.com/doi/full/10.1080/00220388.2019.1640871) (with Mishra, S).  Journal of Development Studies. 2020. 56(6), 1190-1209. \[[PDF](https://www.dropbox.com/s/mijsyastqyf63wk/NonFarmFoodSecurity.pdf?dl=0)\]
+
+[Neighbourhood-scale Residential Segregation in Indian Metros](https://www.epw.in/journal/2019/30/notes/neighbourhood-scale-residential-segregation-indian.html) (with Bharathi, N & Malghan, D). Economic & Political Weekly. 2019. 54(30), 64-70. \[[PDF](https://www.dropbox.com/s/oboftollod3xpcm/seg5cities.pdf?dl=0)\]
+
+[Risks and responses in the wake of climate change: Implications for local adaptation](https://doi.org/10.1016/j.crm.2018.06.001) (with Singh, C, Srinivas, A & Bazaz, A). Climate Risk Management. 2018. 21, 52–68. \[[PDF](https://www.dropbox.com/s/pn11ynbni2llzq4/CRM2018.pdf?dl=0)\]
+
+[Urbanising the Rural: Reflections on India’s National Rurban Mission](https://doi.org/10.1002/app5.234) (with Singh, C). Asia & the Pacific Policy Studies. 2018. 5(2), 370–377. \[[PDF](https://www.dropbox.com/s/vmfiaplhmgonqc6/Rurban.pdf?dl=0)\]
+
+[The bumpy road from food to nutrition security – Slow evolution of India’s food policy](https://doi.org/10.1016/j.gfs.2017.05.002). (with Pingali, P & Mitra, B), Global Food Security. 2017, 15, 77–84. ​\[[PDF](https://www.dropbox.com/s/zrwcpd5c9g8kvgg/GFS2017prePrint.pdf?dl=0)\] 
+
+[Universal food security program and nutritional intake: Evidence from the hunger prone KBK districts in Odisha](https://doi.org/10.1016/j.foodpol.2016.07.003). Food Policy. 2016. 63, 73-86. \[[PDF](https://www.dropbox.com/s/cwp1mu7t4iebryi/Odisha_PDS_Food%20Policy.pdf?dl=0)\] 
+
+[Is Price Transmission in the Indian Pulses Market Asymmetric?](https://link.springer.com/article/10.1007/s40953-015-0008-1) Journal of Quantitative Economics, 2015, 13, 129-146 \[[PDF](https://www.dropbox.com/s/ck3xnx6themawx7/Price%20Transmission_Pulses_JQE.pdf?dl=0)\] 
+
+[Revival of rural PDS: Expansion and Outreach](https://www.epw.in/journal/2014/20/special-articles/revival-rural-public-distribution-system.html). Economic and Political Weekly. 2014. 49(20), 62-68. \[[PDF](https://www.dropbox.com/s/9y4mq5ta4r8a2kq/Revival_of_Rural_Public_Distribution_System_EPW.pdf?dl=0)\]
+
+```{r}
+1 + 1
+```
