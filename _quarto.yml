@@ -9,8 +9,11 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+<<<<<<< HEAD
       - books.qmd
       - nontech.qmd
+=======
+>>>>>>> 77a8f4f06fbded29a4f831bcd05636020d3bc6f3
 
 format:
   html:

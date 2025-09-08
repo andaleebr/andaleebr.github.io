@@ -1,3 +1,12 @@
+<<<<<<< HEAD
 /.quarto/
 _site/
 docs/
+=======
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+/.quarto/
+>>>>>>> 77a8f4f06fbded29a4f831bcd05636020d3bc6f3
