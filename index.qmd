@@ -1,11 +1,19 @@
 ---
 title: "Andaleeb Rahman"
+page-layout: full
+format:
+  html:
+    toc: false
 ---
 
-::: {layout-ncol="2"}
-I am an applied economist with a rich experience of conceptualizing, designing, and executing policy-relevant impact evaluations using causal inference methods. I am also passionate about communicating research to a wider audience.
-
-![](photo.jpg){fig-align="left" width="200" height="200"}
-:::
-
-Email: ar687\@cornell.edu
+<div class="profile-container">
+  <img class="profile-photo" src="photo.jpg" alt="Andaleeb Rahman" />
+  <h1 class="profile-title">Andaleeb Rahman</h1>
+  <p class="profile-subtitle">Applied economist | Impact evaluations | Causal inference</p>
+  <div class="links">
+    <a href="about.html">Publications</a>
+    <a href="books.html">Books</a>
+    <a href="nontech.html">Non‑technical writing</a>
+    <a href="mailto:ar687@cornell.edu">Email</a>
+  </div>
+</div>
