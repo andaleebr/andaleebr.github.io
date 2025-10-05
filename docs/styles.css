@@ -1,1 +1,71 @@
-/* css styles */
+/* Minimalist centered layout inspired by simple profile landing pages */
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #ffffff;
+  color: #1a1a1a;
+}
+
+.page-content {
+  width: 100%;
+}
+
+.profile-container {
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 32px 20px;
+}
+
+.profile-photo {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 16px auto;
+  display: block;
+}
+
+.profile-title {
+  font-size: 1.9rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.profile-subtitle {
+  font-size: 1.05rem;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.links {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 10px 14px;
+  justify-content: center;
+}
+
+.links a {
+  text-decoration: none;
+  color: #0d6efd;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+/* Quarto tweaks */
+.navbar, .quarto-title-block, header.page-header {
+  display: none;
+}
+
+.content {
+  padding-top: 0 !important;
+}
