@@ -1,71 +1,105 @@
-/* Minimalist centered layout inspired by simple profile landing pages */
-
-html, body {
-  height: 100%;
-}
+/* Efficient single-page layout */
 
 body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
   background: #ffffff;
   color: #1a1a1a;
+  line-height: 1.6;
 }
 
-.page-content {
-  width: 100%;
-}
-
-.profile-container {
-  max-width: 720px;
-  margin: 0 auto;
+/* Profile section at top - tighter layout */
+.profile-section {
   text-align: center;
-  padding: 32px 20px;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 1.5rem;
 }
 
 .profile-photo {
-  width: 160px;
-  height: 160px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   object-fit: cover;
-  margin: 0 auto 16px auto;
+  margin: 0 auto 0.8rem auto;
   display: block;
 }
 
-.profile-title {
-  font-size: 1.9rem;
-  font-weight: 700;
-  margin-bottom: 8px;
+/* Content optimization */
+.content {
+  padding-top: 1rem !important;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
-.profile-subtitle {
-  font-size: 1.05rem;
+/* Efficient typography - tighter spacing */
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 0.8rem;
+  color: #1a1a1a;
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.8rem;
+  color: #333;
+  border-bottom: 2px solid #0d6efd;
+  padding-bottom: 0.3rem;
+}
+
+h3 {
+  font-size: 1.1rem;
+  margin-top: 1.2rem;
+  margin-bottom: 0.6rem;
   color: #444;
-  margin-bottom: 20px;
 }
 
-.links {
-  display: inline-flex;
-  flex-wrap: wrap;
-  gap: 10px 14px;
-  justify-content: center;
+/* Publications list - tighter spacing */
+ul {
+  padding-left: 1.2rem;
 }
 
-.links a {
-  text-decoration: none;
+li {
+  margin-bottom: 0.6rem;
+  line-height: 1.4;
+}
+
+/* Tighter paragraph spacing */
+p {
+  margin-bottom: 0.8rem;
+  line-height: 1.5;
+}
+
+/* Links */
+a {
   color: #0d6efd;
+  text-decoration: none;
 }
 
-.links a:hover {
+a:hover {
   text-decoration: underline;
 }
 
-/* Quarto tweaks */
-.navbar, .quarto-title-block, header.page-header {
-  display: none;
+/* Table of contents styling */
+.sidebar {
+  width: 200px;
 }
 
-.content {
-  padding-top: 0 !important;
+/* Responsive design */
+@media (max-width: 768px) {
+  .content {
+    padding: 1rem !important;
+  }
+  
+  .profile-photo {
+    width: 100px;
+    height: 100px;
+  }
+  
+  h1 {
+    font-size: 1.5rem;
+  }
+  
+  h2 {
+    font-size: 1.3rem;
+  }
 }

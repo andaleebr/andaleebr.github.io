@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - photo.jpg
 
 website:
   title: "Andaleeb Rahman"
@@ -8,9 +10,10 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
-      - books.qmd
-      - nontech.qmd
+      - href: books-social-protection.qmd
+        text: Social Protection
+      - href: books-food-systems.qmd
+        text: Food Systems
 
 format:
   html:

@@ -1,0 +1,20 @@
+---
+title: "Social Protection"
+format:
+  html:
+    toc: true
+---
+
+# Social Protection
+
+*The Future of India's Social Safety Nets: Focus, Form, and Scope*
+
+Available as open access, [here](https://www.google.com/url?q=https%3A%2F%2Flink.springer.com%2Fbook%2F9783031507465&sa=D).
+
+::: profile-section
+![Andaleeb Rahman](book2.png){.profile-photo}
+:::
+
+Social protection programs, also referred to as safety nets, have emerged as one of the most important social policy instruments to alleviate poverty and livelihood risks in the global developmental discourse. According to a 2015 World Bank report, around 2.5 billion people globally are covered by safety nets, through which 36 percent of the very poor have managed to escape extreme poverty. The importance of social protection for addressing unanticipated shocks has further galvanized popular support in their favor in developing countries like India which has some of the largest social protection programs in the world. Yet, plenty remains unaddressed around the optimal design of such programs and how can these be transformed in an emerging economy, as diverse as India. For example, *how can safety nets be designed which not only serve a vast rural population but also cater to the rising urban poor? How can one sure that these schemes, which cater to such large and diverse population not subjected to errors of targeting? Most importantly, are these schemes a palliative cure or a tool for furthering India towards a long-term trajectory of resilient development? How does politics influence the idea of welfare in India? Is their sufficient state capacity to bring about improved governance and institutional reforms to create a semblance of welfare regime?*
+
+While social programs in India were typically conceptualized in particular contexts, and therefore had specific objectives and intended beneficiaries. We study the success and failures of India’s social safety net system in terms of three aspects: scope, form and focus. By scope, we mean the objectives of safety net programs, focus refers to the beneficiaries and form refers to the modality or the design. After deliberating upon the achievements and limitations of the various welfare programs, this books looks ahead into the future and highlights some of the key challenges and scope for innovations in designing a future social safety net system for a rising and emerging India. We use India’s experience in implementing social safety nets and highlight the many lessons that India has to offer to the developing world on what works and what doesn’t.

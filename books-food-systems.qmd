@@ -1,0 +1,20 @@
+---
+title: "Food Systems"
+format:
+  html:
+    toc: true
+---
+
+# Food Systems
+
+*The Future of India's Social Safety Nets: Focus, Form, and Scope*
+
+Available as open access, [here](https://www.google.com/url?q=https%3A%2F%2Flink.springer.com%2Fbook%2F10.1007%2F978-3-030-14409-8%23toc&sa=D).
+
+::: profile-section
+![Andaleeb Rahman](book1.png){.profile-photo}
+:::
+
+Over the last decade, increases in per capita incomes, greater urbanization rates, increase in literacy rates, population growth and poverty reduction has characterized this high growth process. Yet, in a small farm dominant country like India, poor infrastructure and a lack of institutional support has excluded many small holders from benefiting from the growth process. At the macro level, the growth process has been highly inequitable benefiting some states more than others. At the consumer end, increases in income and income generating opportunities continue to coexist with a poor health outcomes. These conundrums reflect the major paradoxes of the Indian growth story.
+
+Looking ahead towards 2050 and beyond, this book tackles the following questions: 1. How can India move towards the SDGs -- zero malnutrition and poverty? 2. What are the ways to re-organize the production systems to feed a nutritious diet for the growing population, while ensuring sustainable agriculture systems at the same time? 3. Can we come up with newer ways to ensure that economic growth stimulate the rural economy while through providing more livelihood opportunities? 4. Are there ways to ensure greater equity in regional growth across the country while still guiding the Indian economy towards greater structural transformation?
