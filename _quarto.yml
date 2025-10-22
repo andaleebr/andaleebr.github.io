@@ -10,10 +10,12 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: books-social-protection.qmd
-        text: Social Protection
-      - href: books-food-systems.qmd
-        text: Food Systems
+      - text: Books
+        menu:
+          - href: books-social-protection.qmd
+            text: Social Protection
+          - href: books-food-systems.qmd
+            text: Food Systems
 
 format:
   html:
