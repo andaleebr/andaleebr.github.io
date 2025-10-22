@@ -16,6 +16,8 @@ website:
             text: Social Protection
           - href: books-food-systems.qmd
             text: Food Systems
+      - href: outreach.qmd
+        text: Outreach
 
 format:
   html:
