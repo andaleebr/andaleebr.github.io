@@ -5,14 +5,12 @@ format:
     toc: true
 ---
 
-# Food Systems
+::: book-section
+![Book Cover](book1.png){.book-image}
 
-*Transforming Food Systems for a Rising India*
+## Transforming Food Systems for a Rising India
 
 Available as open access, [here](https://www.google.com/url?q=https%3A%2F%2Flink.springer.com%2Fbook%2F10.1007%2F978-3-030-14409-8%23toc&sa=D).
-
-::: profile-section
-![Andaleeb Rahman](book1.png){.profile-photo}
 :::
 
 Over the last decade, increases in per capita incomes, greater urbanization rates, increase in literacy rates, population growth and poverty reduction has characterized this high growth process. Yet, in a small farm dominant country like India, poor infrastructure and a lack of institutional support has excluded many small holders from benefiting from the growth process. At the macro level, the growth process has been highly inequitable benefiting some states more than others. At the consumer end, increases in income and income generating opportunities continue to coexist with a poor health outcomes. These conundrums reflect the major paradoxes of the Indian growth story.
