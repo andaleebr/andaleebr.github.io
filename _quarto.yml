@@ -2,11 +2,11 @@ project:
   type: website
   output-dir: docs
   resources:
-    - photo.jpg
+    - assets/
 
 website:
   title: "Andaleeb Rahman"
-  favicon: photo.jpg
+  favicon: assets/images/photo.jpg
   navbar:
     background: primary
     left:

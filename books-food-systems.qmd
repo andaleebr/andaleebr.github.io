@@ -6,7 +6,7 @@ format:
 ---
 
 ::: book-section
-![Book Cover](book1.png){.book-image}
+![Book Cover](assets/books/book1.png){.book-image}
 
 ## Transforming Food Systems for a Rising India
 

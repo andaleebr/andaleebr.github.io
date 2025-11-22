@@ -1,7 +1,21 @@
+# R and RStudio files
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
 
+# Quarto
 /.quarto/
 _site/
+
+# System files
+.DS_Store
+*.DS_Store
+
+# Backup files
+*_backup.*
+*.bak
+
+# Temporary files
+*~
+*.tmp

@@ -8,7 +8,7 @@ format:
 ---
 
 ::: profile-section
-![Andaleeb Rahman](photo.jpg){.profile-photo}
+![Andaleeb Rahman](assets/images/photo.jpg){.profile-photo}
 
 # Andaleeb Rahman
 
