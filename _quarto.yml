@@ -6,11 +6,15 @@ project:
 
 website:
   title: "Andaleeb Rahman"
+  favicon: photo.jpg
   navbar:
+    background: primary
     left:
       - href: index.qmd
         text: Home
+        icon: house-fill
       - text: Books
+        icon: book-fill
         menu:
           - href: books-social-protection.qmd
             text: Social Protection
@@ -18,12 +22,17 @@ website:
             text: Food Systems
       - href: outreach.qmd
         text: Outreach
+        icon: megaphone-fill
 
 format:
   html:
-    theme: cosmo
+    theme: 
+      light: [cosmo, styles.css]
     css: styles.css
     toc: true
+    smooth-scroll: true
+    link-external-newwindow: true
+    anchor-sections: true
 
 editor: visual
 
