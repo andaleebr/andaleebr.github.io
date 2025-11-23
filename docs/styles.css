@@ -46,7 +46,7 @@ body {
 /* Content layout */
 .content {
   padding-top: 0.5rem !important;
-  max-width: 780px;
+  max-width: 880px; /* Wider since no sidebar */
   margin: 0 auto;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -137,13 +137,22 @@ a[href$=".pdf"]:hover, a[href*="PDF"]:hover {
 
 /* Sidebar */
 .sidebar {
-  width: 200px;
-  font-size: 0.9rem;
+  display: none !important; /* Hide "On this page" sidebar */
 }
 
 .sidebar nav {
   position: sticky;
   top: 1rem;
+}
+
+/* Book cover images - elegant and simple */
+.book-cover {
+  display: block;
+  max-width: 200px;
+  height: auto;
+  margin: 0 auto 1.5rem auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
 }
 
 /* Navbar */

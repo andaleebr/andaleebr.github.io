@@ -5,6 +5,8 @@ format:
     toc: false
 ---
 
+![](assets/books/book2.png){.book-cover}
+
 ## The Future of India's Social Safety Nets
 
 **Focus, Form, and Scope**
