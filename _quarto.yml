@@ -11,18 +11,15 @@ website:
     background: primary
     left:
       - href: index.qmd
-        text: Home
-        icon: house-fill
-      - text: Books
-        icon: book-fill
+        text: "🏠 Home"
+      - text: "📚 Books"
         menu:
-          - href: books-social-protection.qmd
-            text: Social Protection
           - href: books-food-systems.qmd
-            text: Food Systems
+            text: "Food Systems"
+          - href: books-social-protection.qmd
+            text: "Social Protection"
       - href: outreach.qmd
-        text: Outreach
-        icon: megaphone-fill
+        text: "📰 Outreach"
 
 format:
   html:
