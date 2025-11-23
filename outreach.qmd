@@ -1,11 +1,9 @@
 ---
-title: "Outreach & Media Coverage"
+title: ""
 format:
   html:
     toc: true
 ---
-
-# Outreach & Media Coverage
 
 ## Media Coverage
 
