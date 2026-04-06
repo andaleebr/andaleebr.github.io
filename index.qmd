@@ -17,7 +17,7 @@ I am an applied economist at the Tata-Cornell Institute for Agriculture and Nutr
 
 ## Publications
 
-[Your Nature Article Title](https://www.nature.com/articles/s41586-026-10251-x) (with [Add co-authors]). *Nature*. 2026. \[[PDF](link-to-pdf)\]
+[Reproducibility and robustness of economics and political science research](https://www.nature.com/articles/s41586-026-10251-x) (with Brodeur et al.). *Nature*. 652, pages 151–156 (2026)
 
 [Status Inequality and Public Goods](https://www.sciencedirect.com/science/article/pii/S0305750X23003443?via%3Dihub) (with Bharathi, N & Malghan, D, & Mishra, S.). *World Development*. 176, 2024, 106526. \[[PDF](https://www.dropbox.com/scl/fi/n2nzb3imat80syi420uhj/statusHierarchy_WD.pdf?rlkey=vmkgbsxdfkydxga3vrut45u8n&dl=0)\]
 
