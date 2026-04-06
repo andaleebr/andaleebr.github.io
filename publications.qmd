@@ -1,5 +1,5 @@
 ---
-title: "Publications"
+title: "Journal Publications"
 format:
   html:
     toc: true
@@ -7,27 +7,6 @@ format:
     toc-depth: 3
 ---
 
-## Journal Articles
-
-### [Your Nature Article Title](https://www.nature.com/articles/s41586-026-10251-x)
-
-**Authors:** [Add author list here]
-
-**Published in:** Nature, [Volume/Issue details], 2026
-
-**DOI:** [DOI information]
-
-#### Abstract
-
-[Add your abstract here]
-
-#### Key Findings
-
-- [Add key finding 1]
-- [Add key finding 2] 
-- [Add key finding 3]
-
-#### Links
 
 [Reproducibility and robustness of economics and political science research](https://www.nature.com/articles/s41586-026-10251-x) (with Brodeur et al.). *Nature*. 652, pages 151–156 (2026)
 
