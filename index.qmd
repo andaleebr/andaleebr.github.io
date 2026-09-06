@@ -4,8 +4,6 @@ title: "Andaleeb Rahman"
 
 ::: {layout-ncol="2"}
 ::: {.profile-copy}
-## About me:
-
 I am an applied economist at the Tata-Cornell Institute for Agriculture and Nutrition (TCI), Cornell University, Ithaca, NY. My research lies broadly in the area of developmental impact evaluation with a focus on food security, nutrition, agriculture, social protection, and political economy.
 :::
 
@@ -44,13 +42,9 @@ I am an applied economist at the Tata-Cornell Institute for Agriculture and Nutr
 
 [Read the book (Open Access)](https://link.springer.com/book/10.1007/978-3-030-14409-8)
 
-This book examines how India can move toward zero malnutrition and poverty, reorganize production systems to provide nutritious diets through sustainable agriculture, expand rural livelihood opportunities, and make regional growth more equitable.
-
 ### The Future of India’s Social Safety Nets: Focus, Form, and Scope
 
 [Read the book (Open Access)](https://link.springer.com/book/9783031507465)
-
-This book examines how social protection programs can serve large rural populations and the rising urban poor, reduce targeting errors, support resilient development, and improve governance and institutional capacity.
 
 ## Outreach & Media Coverage
 

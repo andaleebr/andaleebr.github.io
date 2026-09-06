@@ -88,6 +88,28 @@ main.content li {
   margin-bottom: 0.35rem;
 }
 
+#publications,
+#books,
+#outreach-media-coverage {
+  font-size: 0.9rem;
+}
+
+#publications li,
+#outreach-media-coverage li {
+  margin-bottom: 0.22rem;
+}
+
+#books h3,
+#outreach-media-coverage h3 {
+  font-family: var(--serif);
+  font-size: 1rem;
+  margin: 0.7rem 0 0.15rem;
+}
+
+#books p {
+  margin: 0 0 0.35rem;
+}
+
 .profile-side {
   display: flex;
   flex-direction: column;
