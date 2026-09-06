@@ -10,7 +10,7 @@ I am an applied economist at the Tata-Cornell Institute for Agriculture and Nutr
 :::
 
 ::: {.profile-side}
-![](photo.jpg){fig-align="left" width="200" height="200"}
+![](assets/images/photo.jpg){fig-align="left" width="200" height="200"}
 
 ### Contact
 
