@@ -1,105 +1,179 @@
-/* Efficient single-page layout */
+:root {
+  --bg: #f5f3ee;
+  --paper: rgba(255, 255, 255, 0.8);
+  --ink: #1f1f1f;
+  --muted: #5a5854;
+  --accent: #314c61;
+  --line: #e7e1d8;
+  --serif: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  --sans: "Avenir Next", "Helvetica Neue", Arial, sans-serif;
+}
 
 body {
-  background: #ffffff;
-  color: #1a1a1a;
+  background: linear-gradient(180deg, #f7f5f1 0%, #f1efe9 100%);
+  color: var(--ink);
+  font-family: var(--serif);
   line-height: 1.6;
 }
 
-/* Profile section at top - tighter layout */
-.profile-section {
-  text-align: center;
-  padding: 1.5rem 0;
-  border-bottom: 1px solid #eee;
-  margin-bottom: 1.5rem;
+.navbar {
+  border-bottom: 1px solid var(--line);
+  background: rgba(255,255,255,0.5);
+  backdrop-filter: blur(4px);
 }
 
-.profile-photo {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin: 0 auto 0.8rem auto;
-  display: block;
+.navbar-brand {
+  font-family: var(--sans);
+  font-weight: 600;
+  letter-spacing: 0.02em;
 }
 
-/* Content optimization */
-.content {
-  padding-top: 1rem !important;
+main.content {
   max-width: 900px;
-  margin: 0 auto;
+  margin: 2.25rem auto;
+  padding: 2rem 2.2rem 2.4rem;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  box-shadow: 0 4px 18px rgba(17, 24, 39, 0.04);
 }
 
-/* Efficient typography - tighter spacing */
-h1 {
-  font-size: 1.8rem;
-  margin-bottom: 0.8rem;
-  color: #1a1a1a;
+#title-block-header {
+  margin-bottom: 1rem;
 }
 
-h2 {
-  font-size: 1.4rem;
-  margin-top: 1.5rem;
-  margin-bottom: 0.8rem;
-  color: #333;
-  border-bottom: 2px solid #0d6efd;
-  padding-bottom: 0.3rem;
+h1.title {
+  font-family: var(--serif);
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  letter-spacing: -0.04em;
+  line-height: 1.15;
+  margin-bottom: 0.3rem;
 }
 
-h3 {
-  font-size: 1.1rem;
-  margin-top: 1.2rem;
-  margin-bottom: 0.6rem;
-  color: #444;
+.quarto-layout-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 1.75fr) 220px;
+  gap: 1.35rem;
+  align-items: start;
+  margin-bottom: 1.7rem;
 }
 
-/* Publications list - tighter spacing */
-ul {
-  padding-left: 1.2rem;
+.quarto-layout-cell h2 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  letter-spacing: 0.01em;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 0.4rem;
 }
 
-li {
-  margin-bottom: 0.6rem;
-  line-height: 1.4;
+.quarto-layout-cell p {
+  margin-top: 0;
+  color: var(--muted);
+  font-size: 1.03rem;
 }
 
-/* Tighter paragraph spacing */
-p {
-  margin-bottom: 0.8rem;
+main.content > section {
+  margin-top: 1.35rem;
+}
+
+main.content > section h2 {
+  font-family: var(--sans);
+  font-size: 1.05rem;
+  letter-spacing: 0.01em;
+  margin-bottom: 0.55rem;
+}
+
+main.content li {
+  margin-bottom: 0.35rem;
+}
+
+.profile-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.profile-side h3 {
+  margin: 0.9rem 0 0.35rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.profile-side p {
+  margin-bottom: 0;
+  font-size: 0.9rem;
   line-height: 1.5;
 }
 
-/* Links */
-a {
-  color: #0d6efd;
+.profile-side a {
+  white-space: nowrap;
+}
+
+.profile-contact {
+  text-align: center;
+}
+
+.profile-contact h3 {
+  margin: 0.9rem 0 0.35rem;
+  font-family: var(--sans);
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.profile-contact p {
+  margin-bottom: 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.profile-contact a {
+  white-space: nowrap;
+}
+
+.quarto-figure {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.quarto-figure img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  box-shadow: 0 8px 20px rgba(17, 24, 39, 0.06);
+}
+
+main a {
+  color: var(--accent);
   text-decoration: none;
 }
 
-a:hover {
+main a:hover {
   text-decoration: underline;
 }
 
-/* Table of contents styling */
-.sidebar {
-  width: 200px;
-}
+@media (max-width: 720px) {
+  main.content {
+    margin: 1rem auto;
+    padding: 1.5rem 1.1rem 1.8rem;
+  }
 
-/* Responsive design */
-@media (max-width: 768px) {
-  .content {
-    padding: 1rem !important;
+  .quarto-layout-panel {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-bottom: 1.4rem;
   }
-  
-  .profile-photo {
-    width: 100px;
-    height: 100px;
+
+  .profile-copy {
+    text-align: left;
   }
-  
-  h1 {
-    font-size: 1.5rem;
-  }
-  
-  h2 {
-    font-size: 1.3rem;
+
+  .quarto-figure img {
+    width: 180px;
+    height: 180px;
   }
 }
