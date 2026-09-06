@@ -13,7 +13,7 @@ format:
     theme: 
       light: [cosmo, styles.css]
     css: styles.css
-    toc: true
+    toc: false
     smooth-scroll: true
     link-external-newwindow: true
     anchor-sections: true
