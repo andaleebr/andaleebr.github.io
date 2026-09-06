@@ -7,19 +7,6 @@ project:
 website:
   title: "Andaleeb Rahman"
   favicon: assets/images/photo.jpg
-  navbar:
-    background: primary
-    left:
-      - href: index.qmd
-        text: "🏠 Home"
-      - text: "📚 Books"
-        menu:
-          - href: books-food-systems.qmd
-            text: "Food Systems"
-          - href: books-social-protection.qmd
-            text: "Social Protection"
-      - href: outreach.qmd
-        text: "📰 Outreach"
 
 format:
   html:
