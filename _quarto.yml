@@ -1,0 +1,20 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - assets/
+
+website:
+  title: "Andaleeb Rahman"
+  favicon: assets/images/photo.jpg
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    smooth-scroll: true
+    link-external-newwindow: true
+    anchor-sections: true
+
+editor: visual
