@@ -10,8 +10,7 @@ website:
 
 format:
   html:
-    theme: 
-      light: [cosmo, styles.css]
+    theme: cosmo
     css: styles.css
     toc: false
     smooth-scroll: true
@@ -19,4 +18,3 @@ format:
     anchor-sections: true
 
 editor: visual
-
