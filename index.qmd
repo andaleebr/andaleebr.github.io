@@ -2,12 +2,12 @@
 title: "Andaleeb Rahman"
 ---
 
-::: {layout-ncol="2"}
-::: {.profile-copy}
+::: {.profile-header}
+::: {.profile-bio}
 I am an applied economist at the Tata-Cornell Institute for Agriculture and Nutrition (TCI), Cornell University, Ithaca, NY. My research lies broadly in the area of developmental impact evaluation with a focus on food security, nutrition, agriculture, social protection, and political economy.
 :::
 
-::: {.profile-side}
+::: {.profile-aside}
 ![](assets/images/photo.jpg){fig-align="left" width="200" height="200"}
 
 ### Contact

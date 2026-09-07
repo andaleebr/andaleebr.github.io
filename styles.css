@@ -18,7 +18,7 @@ body {
 
 .navbar {
   border-bottom: 1px solid var(--line);
-  background: rgba(255,255,255,0.5);
+  background: rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(4px);
 }
 
@@ -50,24 +50,19 @@ h1.title {
   margin-bottom: 0.3rem;
 }
 
-.quarto-layout-panel {
+.profile-header {
   display: grid;
-  grid-template-columns: minmax(0, 1.75fr) 220px;
-  gap: 1.35rem;
-  align-items: start;
-  margin-bottom: 1.7rem;
+  grid-template-columns: minmax(0, 1fr) 150px;
+  gap: 1.25rem;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  padding: 1.25rem 1.4rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.52);
 }
 
-.quarto-layout-cell h2 {
-  margin-top: 0;
-  margin-bottom: 0.5rem;
-  font-size: 1.2rem;
-  letter-spacing: 0.01em;
-  border-bottom: 1px solid var(--line);
-  padding-bottom: 0.4rem;
-}
-
-.quarto-layout-cell p {
+.profile-bio p {
   margin-top: 0;
   color: var(--muted);
   font-size: 1.03rem;
@@ -110,47 +105,26 @@ main.content li {
   margin: 0 0 0.35rem;
 }
 
-.profile-side {
+.profile-aside {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
 
-.profile-side h3 {
+.profile-aside h3 {
   margin: 0.9rem 0 0.35rem;
   font-size: 1rem;
   font-weight: 600;
 }
 
-.profile-side p {
+.profile-aside p {
   margin-bottom: 0;
   font-size: 0.9rem;
   line-height: 1.5;
 }
 
-.profile-side a {
-  white-space: nowrap;
-}
-
-.profile-contact {
-  text-align: center;
-}
-
-.profile-contact h3 {
-  margin: 0.9rem 0 0.35rem;
-  font-family: var(--sans);
-  font-size: 0.95rem;
-  font-weight: 600;
-}
-
-.profile-contact p {
-  margin-bottom: 0;
-  font-size: 0.9rem;
-  line-height: 1.5;
-}
-
-.profile-contact a {
+.profile-aside a {
   white-space: nowrap;
 }
 
@@ -160,9 +134,9 @@ main.content li {
   justify-content: center;
 }
 
-.quarto-figure img {
-  width: 200px;
-  height: 200px;
+.profile-aside img {
+  width: 130px;
+  height: 130px;
   object-fit: cover;
   border-radius: 12px;
   border: 1px solid var(--line);
@@ -184,18 +158,34 @@ main a:hover {
     padding: 1.5rem 1.1rem 1.8rem;
   }
 
-  .quarto-layout-panel {
+  .profile-header {
+    grid-template-columns: 1fr 120px;
+    gap: 0.8rem;
+    margin-bottom: 1.2rem;
+    padding: 1rem;
+  }
+
+  .profile-aside img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .profile-aside p {
+    font-size: 0.72rem;
+    line-height: 1.35;
+  }
+
+  .profile-aside a {
+    white-space: normal;
+  }
+}
+
+@media (max-width: 520px) {
+  .profile-header {
     grid-template-columns: 1fr;
-    gap: 1rem;
-    margin-bottom: 1.4rem;
   }
 
-  .profile-copy {
-    text-align: left;
-  }
-
-  .quarto-figure img {
-    width: 180px;
-    height: 180px;
+  .profile-aside {
+    width: 100%;
   }
 }
