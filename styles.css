@@ -54,9 +54,9 @@ h1.title {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 150px;
   gap: 1.25rem;
-  align-items: center;
-  margin-bottom: 1.5rem;
-  padding: 1.25rem 1.4rem;
+  align-items: start;
+  margin-bottom: 1.25rem;
+  padding: 1rem 1.2rem;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.52);
@@ -64,8 +64,10 @@ h1.title {
 
 .profile-bio p {
   margin-top: 0;
+  margin-bottom: 0;
   color: var(--muted);
   font-size: 1.03rem;
+  text-align: left;
 }
 
 main.content > section {
@@ -109,11 +111,12 @@ main.content li {
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
+  text-align: left;
 }
 
 .profile-aside h3 {
-  margin: 0.9rem 0 0.35rem;
+  align-self: stretch;
+  margin: 0.6rem 0 0.25rem;
   font-size: 1rem;
   font-weight: 600;
 }
@@ -122,6 +125,10 @@ main.content li {
   margin-bottom: 0;
   font-size: 0.9rem;
   line-height: 1.5;
+}
+
+.profile-aside section {
+  width: 100%;
 }
 
 .profile-aside a {
@@ -161,8 +168,8 @@ main a:hover {
   .profile-header {
     grid-template-columns: 1fr 120px;
     gap: 0.8rem;
-    margin-bottom: 1.2rem;
-    padding: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.9rem;
   }
 
   .profile-aside img {
