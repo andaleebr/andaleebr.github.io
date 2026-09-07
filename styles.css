@@ -206,9 +206,9 @@ main a:hover {
   }
 
   .quarto-layout-row > .profile-side {
-    float: none;
-    margin: 1rem auto 0;
-    width: 100%;
+    float: right;
+    margin: 0 0 0.8rem 1rem;
+    width: 160px;
   }
 
   .profile-copy {
@@ -218,5 +218,14 @@ main a:hover {
   .quarto-figure img {
     width: 160px;
     height: 160px;
+  }
+
+  .profile-contact p {
+    font-size: 0.72rem;
+    line-height: 1.35;
+  }
+
+  .profile-contact a {
+    white-space: normal;
   }
 }
