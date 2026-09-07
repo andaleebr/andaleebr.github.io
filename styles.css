@@ -51,21 +51,27 @@ h1.title {
 }
 
 .quarto-layout-panel {
-  margin-bottom: 1.7rem;
+  margin-bottom: 1.5rem;
+  padding: 1.25rem 1.4rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.52);
 }
 
 .quarto-layout-row {
-  display: block;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 150px;
+  gap: 1.25rem;
+  align-items: center;
 }
 
 .quarto-layout-row > .profile-copy {
-  width: auto;
+  grid-column: 1;
 }
 
 .quarto-layout-row > .profile-side {
-  float: right;
-  width: 190px;
-  margin: 0 0 1rem 1.5rem;
+  grid-column: 2;
+  width: auto;
 }
 
 .quarto-layout-cell h2 {
@@ -121,7 +127,9 @@ main.content li {
 }
 
 .profile-side {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
 }
 
@@ -169,8 +177,8 @@ main.content li {
 }
 
 .quarto-figure img {
-  width: 170px;
-  height: 170px;
+  width: 130px;
+  height: 130px;
   object-fit: cover;
   border-radius: 12px;
   border: 1px solid var(--line);
@@ -193,22 +201,23 @@ main a:hover {
   }
 
   .quarto-layout-panel {
-    margin-bottom: 1.4rem;
+    margin-bottom: 1.2rem;
+    padding: 1rem;
   }
 
   .quarto-layout-row {
-    display: block;
+    grid-template-columns: 1fr 120px;
+    gap: 0.8rem;
   }
 
   .quarto-layout-row > .profile-copy,
   .quarto-layout-row > .profile-side {
-    width: auto;
+    grid-column: auto;
   }
 
   .quarto-layout-row > .profile-side {
-    float: right;
-    margin: 0 0 0.8rem 1rem;
-    width: 160px;
+    grid-column: 2;
+    width: auto;
   }
 
   .profile-copy {
@@ -216,8 +225,8 @@ main a:hover {
   }
 
   .quarto-figure img {
-    width: 160px;
-    height: 160px;
+    width: 120px;
+    height: 120px;
   }
 
   .profile-contact p {
@@ -227,5 +236,20 @@ main a:hover {
 
   .profile-contact a {
     white-space: normal;
+  }
+}
+
+@media (max-width: 520px) {
+  .quarto-layout-row {
+    grid-template-columns: 1fr;
+  }
+
+  .quarto-layout-row > .profile-copy,
+  .quarto-layout-row > .profile-side {
+    grid-column: 1;
+  }
+
+  .quarto-layout-row > .profile-side {
+    width: 100%;
   }
 }
