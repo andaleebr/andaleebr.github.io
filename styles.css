@@ -51,11 +51,24 @@ h1.title {
 }
 
 .quarto-layout-panel {
-  display: grid;
-  grid-template-columns: minmax(0, 1.75fr) 220px;
-  gap: 1.35rem;
-  align-items: start;
   margin-bottom: 1.7rem;
+}
+
+.quarto-layout-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 190px;
+  gap: 1rem;
+  align-items: start;
+}
+
+.quarto-layout-row > .profile-copy {
+  grid-column: 1;
+  width: auto;
+}
+
+.quarto-layout-row > .profile-side {
+  grid-column: 2;
+  width: auto;
 }
 
 .quarto-layout-cell h2 {
@@ -161,8 +174,8 @@ main.content li {
 }
 
 .quarto-figure img {
-  width: 200px;
-  height: 200px;
+  width: 170px;
+  height: 170px;
   object-fit: cover;
   border-radius: 12px;
   border: 1px solid var(--line);
@@ -185,9 +198,17 @@ main a:hover {
   }
 
   .quarto-layout-panel {
+    margin-bottom: 1.4rem;
+  }
+
+  .quarto-layout-row {
     grid-template-columns: 1fr;
     gap: 1rem;
-    margin-bottom: 1.4rem;
+  }
+
+  .quarto-layout-row > .profile-copy,
+  .quarto-layout-row > .profile-side {
+    grid-column: 1;
   }
 
   .profile-copy {
@@ -195,7 +216,7 @@ main a:hover {
   }
 
   .quarto-figure img {
-    width: 180px;
-    height: 180px;
+    width: 160px;
+    height: 160px;
   }
 }
