@@ -1,19 +1,30 @@
 ---
-title: "Andaleeb Rahman"
+pagetitle: "Andaleeb Rahman"
 ---
 
-::: {layout-ncol="2"}
-::: {.profile-copy}
-I am an applied economist at the Tata-Cornell Institute for Agriculture and Nutrition (TCI), Cornell University, Ithaca, NY. My research lies broadly in the area of developmental impact evaluation with a focus on food security, nutrition, agriculture, social protection, and political economy.
+::: {.site}
+::: {.profile}
+![](assets/images/photo.jpg){.profile-photo fig-alt="Andaleeb Rahman"}
+
+[Andaleeb Rahman]{.profile-name}
+
+[Economist<br>Amazon]{.profile-role}
+
+::: {.profile-links}
+[Google Scholar](https://scholar.google.com/citations?user=SYamPTYAAAAJ&hl=en&oi=ao)<br>
+[LinkedIn](https://www.linkedin.com/in/andaleeb-rahman2312)
 :::
 
-::: {.profile-side}
-![](assets/images/photo.jpg){fig-align="left" width="200" height="200"}
-
-### Contact
-
-[Google Scholar](https://scholar.google.com/citations?user=SYamPTYAAAAJ&hl=en&oi=ao) · [LinkedIn](https://www.linkedin.com/in/andaleeb-rahman2312) · [Email](mailto:ar687@cornell.edu)
+::: {.profile-nav}
+[Publications](#publications)<br>
+[Books](#books)<br>
+[Outreach & Media](#outreach-media-coverage)
 :::
+:::
+
+::: {.main-col}
+::: {.intro}
+I am an economist at Amazon. Previously, I was an applied economist at the Tata-Cornell Institute for Agriculture and Nutrition (TCI), Cornell University. My research lies broadly in the area of developmental impact evaluation with a focus on food security, nutrition, agriculture, social protection, and political economy.
 :::
 
 ## Publications
@@ -38,13 +49,31 @@ I am an applied economist at the Tata-Cornell Institute for Agriculture and Nutr
 
 ## Books
 
-### Transforming Food Systems for a Rising India
+::: {.book}
+Transforming Food Systems for a Rising India [(open access)](https://link.springer.com/book/10.1007/978-3-030-14409-8)
 
-[Read the book (Open Access)](https://link.springer.com/book/10.1007/978-3-030-14409-8)
+<details>
+<summary>Abstract</summary>
 
-### The Future of India’s Social Safety Nets: Focus, Form, and Scope
+This open access book examines India's economic development, agricultural production, and nutrition through the lens of a "Food Systems Approach (FSA)." Despite economic progress, regional inequality, food insecurity and malnutrition persist. Simultaneously, recent trends in obesity and micro-nutrient deficiency indicate a future public health crisis. This book explores the challenges and opportunities to achieve a nutrition-secure future through diversified production systems, improved health and hygiene and greater individual capability to access a balanced diet. Within the context of developing countries, they highlight India's status as an outlier regarding high levels of stunting and global trends in obesity. This book discusses the policy and institutional interventions needed to promote a nutrition-sensitive food system and the multi-sectoral strategies needed to address malnutrition in India.
 
-[Read the book (Open Access)](https://link.springer.com/book/9783031507465)
+</details>
+:::
+
+::: {.book}
+The Future of India's Social Safety Nets: Focus, Form, and Scope [(open access)](https://link.springer.com/book/9783031507465)
+
+<details>
+<summary>Abstract</summary>
+
+India's rapid economic growth and wealth creation in the past three decades have been marred by its persistently high levels of poverty and child undernutrition, along with rising inequality. Social safety nets, for those left behind, have therefore gained in eminence as a redistributive mechanism.
+
+*The Future of India's Social Safety Nets: Focus, Form, and Scope* explains how an array of social welfare programs (comprising the safety net) have emerged as a leitmotif of social policy in independent India and explores the key challenges and scope for innovations in redesigning India's social safety net system for the future.
+
+This open-access book provides a comprehensive analysis of India's safety net by combining insights from a wealth of interdisciplinary scholarship on economic development, social protection, and the social policy process. It unpacks India's social welfare programs in terms of their three essential aspects—focus (intended beneficiaries), form (transfer modalities), and scope (developmental objectives). Highlighting the developmental achievements and shortcomings of these independent schemes, the book proposes a framework to foster human resilience through social protection. Lessons from this book are equally relevant for other developing countries as they seek to build an efficient social safety net system.
+
+</details>
+:::
 
 ## Outreach & Media Coverage
 
@@ -62,3 +91,5 @@ I am an applied economist at the Tata-Cornell Institute for Agriculture and Nutr
 - [Residential segregation in urban India and persistence of caste inequality](https://www.ideasforindia.in/topics/urbanisation/residential-segregation-in-urban-india-and-persistence-of-caste-i.html) — Ideas for India.
 - [Diversity and public goods: Why the geographical unit of analysis matters](https://www.ideasforindia.in/topics/governance/diversity-and-public-goods-why-the-geographical-unit-of-analysis-matters.html) — Ideas for India.
 - [A Permanent Cordon Sanitaire: Intra-Village Spatial Segregation and Social Distance in India](https://casi.sas.upenn.edu/iit/bharathi-malghan-rahman) — India in Transition (CASI).
+:::
+:::

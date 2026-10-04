@@ -10,7 +10,8 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme: none
+    page-layout: custom
     css: styles.css
     toc: false
     smooth-scroll: true
