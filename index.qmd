@@ -12,7 +12,8 @@ pagetitle: "Andaleeb Rahman"
 
 ::: {.profile-links}
 [Google Scholar](https://scholar.google.com/citations?user=SYamPTYAAAAJ&hl=en&oi=ao)<br>
-[LinkedIn](https://www.linkedin.com/in/andaleeb-rahman2312)
+[LinkedIn](https://www.linkedin.com/in/andaleeb-rahman2312)<br>
+[andaleeb2312@gmail.com](mailto:andaleeb2312@gmail.com)
 :::
 
 ::: {.profile-nav}
